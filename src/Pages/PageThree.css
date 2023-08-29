@@ -1,0 +1,248 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding-block: 20px;
+}
+.hp-slide-casco:after {
+    content: '';
+    background: url(https://www.generali.com.tr/assets/images/travel_d_bg.png) no-repeat 77% 100% #fff;
+    background-size: auto 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+ .h1 {
+    font-family: sans-serif;
+    text-align: left;
+    color: #2c2c2c;
+    font-size: 22px;
+    font-weight: 500;
+    margin:0;
+    margin-top: 20px;
+}
+.policeText{
+    text-align: left!important;
+    margin: 0;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-right: 5px;
+    color: #c7281e;
+    font-weight: bold;
+}
+
+.headerContainer{
+    padding-left:150px ;
+    padding-bottom: 60px;
+}
+.textThird{
+    color: #d13628;
+    font-weight: bold;
+    padding: 0 0 0 20px;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.iconDiv{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 12px ;
+    
+}
+.selectDiv{
+   background-color: #e7e7e7;
+    align-items: center;
+    margin: 9px;
+    padding: 9px;
+  
+}
+.icon{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width: 38px;
+    height: 33.5px ;
+    margin: 0px 40px;
+}
+.wrapperBottom{
+    margin: 0px 50px;
+    padding: 0px 10px;
+    position: relative;
+}
+.secondContainerFirstDiv{
+    padding: 0px 10px;
+    width: 920px;
+   
+}
+.modulDetails{
+    background-color: white;     
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: space-between;
+    padding:  30px 30px 30px 0px ;
+    margin: 16px 20px 28px 16px;
+}
+.visaText{
+    
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #333333;
+}
+h4{
+    font-weight: 600;
+    line-height: 1.1;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #333333;
+
+}
+
+.ayrac{
+   width: 1px;
+   height: 100px;
+   background-color: #e7e7e7;
+}
+.selectPackageButton{
+    width: 38%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: initial!important;
+    max-height: 102px;
+    padding: 25px;
+  
+}
+.selectPackageButton{
+    color: #333333;
+    align-items: center;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.selectButton{
+    background: #8bc837;  
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 8px;
+    text-align: center;
+}
+.isSelectAndTick{
+    padding: 0px 28px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color:#e7e7e7;
+    align-items: center;
+    display: flex;
+    column-gap: 10px;
+
+
+}
+img{
+    vertical-align: middle;
+    border: 0;
+}
+
+.price{
+    font-family: sans-serif;
+    color: #ffffff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    column-gap: 4px;
+}
+    .priceInt{
+font-size: 19px;
+font-family: sans-serif;
+color: #ffffff ;
+
+    }
+
+priceString{
+font-size: 13.5px;
+font-family: sans-serif;
+
+}
+
+.countrySelect{
+    font-size: 15px!important;
+    text-align: center;
+    background: #ffffff!important;
+    border: 1px solid #cbcbcb;
+    width: 75%;
+    border: none;
+    font-size: 2em;
+    padding: 15px 40px;
+    border-radius: 50px;
+    margin: 10px 10px;
+    font-family: inherit;
+    text-transform: uppercase;
+    
+}
+.selectCountryDiv{
+    width: 100%;
+    padding: 0 58px;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+   top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+  }
+  
+  .Modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 8px;
+    width: 500px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .Modal h2 {
+    background-color: #c7281e;
+    color: white;
+    width: 100%;
+    padding: 10px; 
+    text-align: center;
+    border-radius: 8px 8px 0px 0px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 10px; /* Yukarıda boşluk bırakmadan sabitleme */
+  }
+  
+  .Modal p {
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .Modal button {
+    background-color: #c7281e;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px ;
+    font-weight: 600;
+  }

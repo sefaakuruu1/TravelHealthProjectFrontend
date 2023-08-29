@@ -1,0 +1,54 @@
+.covidWrapper{
+    color: #333333;
+    padding: 20px;
+    margin: 9px;
+    background-color: #e7e7e7;
+    font-size: 12px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    outline: none!important;
+    
+    }
+    
+    .boxModul{
+        background-color: #ffffff;
+        margin: 0px 0px 17px;
+        padding: 20px;
+    }
+    .covidTitle{
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0;
+        color: #000;
+        font-size: 18px;
+        font-weight: 700; 
+        display: flex;
+        max-width: 100%;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    p .explanation{
+        text-align: center;
+        margin: 0 0 10px;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        margin: 0 0 10px;  
+    }
+    ul{
+        list-style: none; 
+    }
+    li{
+        display: list-item;
+        text-align: -webkit-match-parent;
+        color: #333333;
+    
+    }
+    .subtitle{
+        font-weight: bold;
+        margin: 0 0 10px;  
+    }
